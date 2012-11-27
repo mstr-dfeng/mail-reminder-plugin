@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='mail-reminder-plugin' version='1.0'>
+  <l:dependency name='Mail Reminder Plugin' groupId='org.jenkins-ci.plugins' artifactId='mail-reminder-plugin' version='1.0' url='http://jenkins-ci.org/plugin/mail-reminder-plugin/'>
+    <l:description>This plugin notifies configured email recipients based on build result.</l:description>
+  </l:dependency>
+</l:dependencies>

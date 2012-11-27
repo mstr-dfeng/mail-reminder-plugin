@@ -1,0 +1,32 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+      <f:section title="E-mail Reminder">
+
+        <f:entry title="SMTP server" help="/descriptor/hudson.tasks.Mailer/help/smtpServer">
+            <input class="setting-input" name="server"
+                   type="text" value="${descriptor.server}"/>
+        </f:entry>
+
+        <f:entry title="Default user E-mail suffix" field="suffix" help="/descriptor/hudson.tasks.Mailer/help/defaultSuffix">
+          <f:textbox />
+        </f:entry>
+
+        <f:entry title="System Admin E-mail Address" help="/descriptor/hudson.tasks.Mailer/help/adminAddress">
+        <f:textbox field="address" />
+        </f:entry>
+
+        <f:advanced>
+            <f:entry title="${%SMTP user name}">
+                <f:textbox field="user" />
+            </f:entry>
+            <f:entry title="${%SMTP password}">
+                <f:password field="password" />
+            </f:entry>
+            <f:entry title="${%SMTP port}">
+                <f:textbox field="port" />
+            </f:entry>
+        </f:advanced>
+
+      </f:section>
+
+</j:jelly>

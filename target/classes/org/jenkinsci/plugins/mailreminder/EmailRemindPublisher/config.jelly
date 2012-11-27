@@ -1,0 +1,19 @@
+
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+    <f:entry title="Recipients" >
+        <f:textbox name="recipientList" value="${instance.recipientList}" />
+    </f:entry>
+    <f:description>Comma-separated list of email address that should receive notifications for this project.</f:description>
+    <f:entry field="sendIfSuccess">
+        <f:checkbox title="Send E-mail if Build Success"/>
+    </f:entry>
+    <f:entry field="sendIfFail">
+        <f:checkbox title="Send E-mail if Build Failed"/>
+    </f:entry>
+    <f:entry field="sendIfChanged">
+        <f:checkbox title="Send E-mail if Build Result changed"/>
+    </f:entry>
+
+</j:jelly>

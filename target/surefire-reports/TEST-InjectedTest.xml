@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="39.303" errors="0" skipped="0" tests="4" name="InjectedTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_02\jre\bin"/>
+    <property name="java.vm.version" value="1.6.0_02-b06"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7540"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\CI\Plugin\IntelliJIDEA\mail-reminder-plugin"/>
+    <property name="java.runtime.version" value="1.6.0_02-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_02\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\dfeng\AppData\Local\Temp\1\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Vista"/>
+    <property name="classworlds.conf" value="D:\CI\Maven\apache-maven-3.0.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_02\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 11.1.2\bin\..\.\bin;Z:\BuildScripts\Nt;C:\Perl\bin;Z:\BuildScripts;Z:\BIN;Z:\3rdParty;Z:\ODBO\Source\Installation\Redist;Z:\InstallMaster\Data;Z:\yati\yati_dev;Z:\yati\MicroStrategy;Z:\Aurora\BuildScripts;C:\Windows\system32;C:\Windows;C:\gnu;C:\Program Files (x86)\Java\jdk1.6.0_02\bin;Z:\SysTools_Win32\ant\bin;C:\Program Files (x86)\Common Files\MicroStrategy;C:\cygwin\bin;C:\Program Files (x86)\Teradata\Client\13.10\Shared ICU Libraries for Teradata\lib\;Z:\BuildScripts\Nt;C:\Windows\system32\wbem;C:\Program Files (x86)\Teradata\Client\13.10\ODBC Driver for Teradata\Lib\;C:\Program Files (x86)\Teradata\Client\13.10\Shared ICU Libraries for Teradata\lib\;C:\Program Files (x86)\NCR\Teradata Client\cliv2\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;c:\ruby\bin;C:\Program Files (x86)\Common Files\MicroStrategy;C:\Program Files (x86)\Common Files\Compuware;C:\Program Files\TortoiseSVN\bin;D:\Software\apache-ant-1.8.4-bin\apache-ant-1.8.4\bin;D:\CI\Maven\apache-maven-3.0.4\bin;c:\program files (x86)\jetbrains\intellij idea community edition 11.1.2\jre\jre\bin"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\dfeng"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 11.1.2\bin"/>
+    <property name="user.name" value="dfeng"/>
+    <property name="java.class.path" value="D:\CI\Maven\apache-maven-3.0.4\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 11.1.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0_02\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_02"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_02\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.6.0_02\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.6.0_02\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.6.0_02\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.6.0_02\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.6.0_02\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.6.0_02\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.6.0_02\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="D:\CI\Maven\apache-maven-3.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.62" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" name="\/D:\/CI\/Plugin\/IntelliJIDEA\/mail-reminder-plugin\/target\/classes\/org\/jenkinsci\/plugins\/mailreminder\/EmailRemindPublisher\/config.jelly"/>
+  <testcase time="0.102" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" name="\/D:\/CI\/Plugin\/IntelliJIDEA\/mail-reminder-plugin\/target\/classes\/org\/jenkinsci\/plugins\/mailreminder\/EmailRemindPublisher\/global.jelly"/>
+  <testcase time="0" classname="org.jvnet.hudson.test.junit.FailedTest" name="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite"/>
+  <testcase time="5.578" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$CliSanityTest" name="testCliSanity"/>
+</testsuite>
